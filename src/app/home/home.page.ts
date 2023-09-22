@@ -13,4 +13,8 @@ export class HomePage {
     this.contador = this.contador + 1;
   }
 
+  public get tamanioFuente():string{
+    return 'font-size:'+this.contador+'px;'
+  }
+
 }
