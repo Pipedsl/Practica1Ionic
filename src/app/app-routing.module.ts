@@ -17,8 +17,8 @@ const routes: Routes = [
   },
   {
     path: 'lista-pokemon',
-    loadChildren: () => import('./lista-pokemon/lista-pokemon.module').then( m => m.ListaPokemonPageModule)
-  },
+    loadChildren: () => import('./lista-pokemon/lista-pokemon.module').then( m => m.ListaPokemonPageModule )
+  }
 ];
 
 @NgModule({

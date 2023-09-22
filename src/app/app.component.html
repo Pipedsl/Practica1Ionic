@@ -6,11 +6,17 @@
       </ion-toolbar>
     </ion-header>
     <ion-content class="ion-padding">
-      <ul>
-        <ion-button routerLink="/home"> Home </ion-button>
-        <ion-button routerLink="/principal"> Principal </ion-button>
-        <ion-button routerLink="/lista-pokemon">Lista Pokemón</ion-button>
-      </ul>
+      <ion-list>
+        <ion-item>
+          <a routerLink="/home"> Home </a> 
+        </ion-item>
+        <ion-item>
+          <a routerLink="/principal"> Principal </a> 
+        </ion-item>
+        <ion-item>
+          <a routerLink="/lista-pokemon"> Lista Pokemón </a> 
+        </ion-item>
+      </ion-list>
     </ion-content>
   </ion-menu>
   <ion-router-outlet id="main-content"></ion-router-outlet> 
